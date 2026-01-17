@@ -173,3 +173,69 @@ a{
     transform: translate(-50%,-50%);
 
 }
+
+/* third section css  */
+
+#third_content{
+    margin-top: 80px;
+
+}
+.third-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.third_heading h2{
+    color: #FFFFFF;
+    font-size: 45px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.third_heading p{
+    color: #4FC3F7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.third_container_body{
+    color: #FFFFFF;
+    margin-top: 50px;
+    gap: 20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.third_data{
+    background-color: #2B2B2B;
+    margin-top: 10px;
+    padding: 10px;
+    width: 289px;
+    height: 274px;
+    border: 1px solid;
+    border-radius: 10px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.mero_skill{
+    background-color: #2B2B2B;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mero_skill h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.mero_skill p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
