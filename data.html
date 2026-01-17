@@ -1,210 +1,90 @@
+<!-- https://www.figma.com/design/3U7L7h1B2vQ3cp0jZt6cyS/Designer-Developer-Portfolio--Community-?node-id=1-2&t=MaQ0fUOmVOKllBof-0 -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-  <body>
-    <nav class="navigation">
-      <ul class="navigation_list">
-        <li><a href="#Home">Home</a></li>
-        <li><a href="#About">About</a></li>
-        <li><a href="#Project">Project</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sudarshan ||Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-    <main>
-      <!-- first section  -->
-      <section>
-        <div class="intro">
-          <div class="intro_content">
-            <img src="sudu.jpeg" alt="" />
-          </div>
-          <div class="intro_details">
-            <h1>
-              I’m a Frontend Engineer focused on building responsive,
-              accessible, and user-friendly web interfaces.
-            </h1>
-          </div>
-        </div>
-      </section>
+<body>
+  <header>
+    <div class="header_list">
+      <div class="first_header">
+        <h3>Sudarshan</h3>
+      </div>
+      <div class="second_header">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Project">Projects</a></li>
+          <li><a href="#Service">Services</a></li>
+          <li><a href="#Resume">Resume</a></li>
+        </ul>
+      </div>
+      <div class="third_header">
+        <a href="#">Contact me</a>
+      </div>
+    </div>
+  </header>
 
-      <!-- second section -->
-      <section id="About">
-        <div class="about">
-          <div class="about_heading">
-            <h1>About me</h1>
-          </div>
-          <div class="about_body">
-            <div class="about_me">
-              <p>
-                It’s me, Sudarshan Khatri — a beginner Frontend Engineer
-                learning to build clean, responsive, and interactive websites. I
-                enjoy turning simple ideas into user-friendly web experiences
-                through hands-on practice, modern tools, and continuous learning
-                as I grow step by step in frontend development.
-              </p>
-            </div>
-            <!-- Skills Subsection -->
-            <div class="skills">
-              <div class="skills_heading">
-                <h3>Skills</h3>
-              </div>
-              <div class="skill_list">
-                <ul>
-                  <li>HTML5, CSS3, JavaScript (ES6+)</li>
-                  <li>Responsive Web Design</li>
-                  <li>Django (Backend Development & REST APIs)</li>
-                  <li>Python Programming</li>
-                  <li>Git & GitHub (Version Control)</li>
-                </ul>
-              </div>
-            </div>
+
+  <!-- main section  -->
+  <main>
+
+    <!-- first section  -->
+    <section id="first_section">
+      <div class="section-header">
+        <div class="first-sec-contet">
+          <!-- <div class="first-sec-img">
+            <img src="Rectangle 3.png" alt="background image">
+          </div> -->
+          <div class="sec-sec-img">
+            <img src="Ellipse 5.png" alt="my image">
           </div>
         </div>
-      </section>
-
-      <!-- third secton  -->
-      <section id="Project">
-        <div class="project_list">
-          <div class="project_heading">
-            <h3>Projects</h3>
-          </div>
-          <div class="project_lists">
-            <div class="projects">
-              <img src="busReservation.png" alt="" />
-              <p>
-                This project is a Bus Reservation System developed in C language
-                as a First Semester Project. It is a console-based application
-                that allows administrators to manage bus details and users to
-                sign up, log in, book tickets, and view passenger information.
-                The system uses file handling to store and manage persistent
-                data such as buses, users, and tickets.
-              </p>
-              <h3>
-                Github link:<a
-                  href="https://github.com/sudarshankhatri3/FirstSemesterProject.git"
-                  >First Semester Project</a
-                >
-              </h3>
-            </div>
-            <div class="projects">
-              <img src="Rental.png" alt="" />
-              <p>
-                This project is a Home Rental Service System developed in C++ as
-                an academic project. It is a console-based application that
-                allows house owners to list rental properties and customers to
-                browse and book available rooms. The system uses file handling,
-                OOP concepts, and regular expressions for validation to simulate
-                a real-world rental platform.
-              </p>
-              <h3>
-                Github link :<a
-                  href="https://github.com/sudarshankhatri3/SecondSemesterProject.git"
-                  >Second Semester Project</a
-                >
-              </h3>
-            </div>
-            <div class="projects">
-              <img src="agriTrade.jpeg" alt="" />
-              <p>
-                AgriTrade is a desktop-based agriculture trading application
-                developed as a Fourth Semester Project. The system facilitates
-                agriculture-related business operations between Food Processing
-                Companies and Retailers. It follows a client–server architecture
-                where JavaFX is used for the frontend desktop application and
-                Django serves as the backend, handling business logic, APIs, and
-                database operations. AgriTrade functions similarly to an
-                e-commerce platform, enabling product listing, ordering,
-                transaction management, and role-based access for different
-                stakeholders in the agriculture supply chain.
-              </p>
-              <h3>
-                Github link:
-                <a
-                  href="https://github.com/sudarshankhatri3/FourthSemesterProject.git"
-                  >Fourth Semester Project</a
-                >
-              </h3>
-            </div>
-            <div class="projects">
-              <img src="library.jpeg" alt="" />
-              <p>
-                This is a Personal Library Management System designed to help
-                users manage their book collections. The system allows both
-                administrators and users to perform various operations such as
-                adding, updating, deleting, searching, borrowing, and returning
-                books.
-              </p>
-              <h3>
-                Github link:
-                <a
-                  href="https://github.com/sudarshankhatri3/Python_OOP_Project.git"
-                  >Personal Library Management System</a
-                >
-              </h3>
-            </div>
-            <div class="projects">
-              <img src="lab.jpeg" alt="" />
-              <p>
-                This is a Personal Library Management System designed to help
-                users manage their book collections. The system allows both
-                administrators and users to perform various operations such as
-                adding, updating, deleting, searching, borrowing, and returning
-                books.
-              </p>
-
-              <h3>
-                Github link:
-                <a href="https://github.com/sudarshankhatri3/LabTechBackend.git"
-                  >LabTech Management System</a
-                >
-              </h3>
-            </div>
-          </div>
+        <div class="second-sec-content">
+          <h1>Sudarshan Khatri</h1>
+          <h3>FullStack Developer</h3>
         </div>
-      </section>
-      <!-- fourth section  -->
-      <section id="contact">
-        <form action="" class="contactForm">
-          <fieldset class="formdata">
-            <legend>Please fill Form</legend>
-
-            <label for="name">Full Name:</label>
-            <input type="text" name="name" /><br /><br />
-
-            <label for="email">Email:</label>
-            <input type="email" name="email" /><br /><br />
-
-            <label for="phone">Contact No:</label>
-            <input type="number" name="phone" /><br /><br />
-
-            <label for="msg">Message:</label>
-            <textarea
-              type="text"
-              name="msg"
-              placeholder="Type your message here..."
-              rows="5"
-            ></textarea>
-
-            <button type="submit">Submit</button>
-          </fieldset>
-        </form>
-      </section>
-    </main>
-
-    <!-- footer  -->
-    <footer>
-      <section>
-        <div class="footer_content">
-            <a href="https://github.com/sudarshankhatri3"><img src="github.png" alt="github photo"></a>
-            <a href="https://www.linkedin.com/in/sudarshan-khatri-4856b5334/"><img src="linkden.avif" alt="linkden photo"></a>
+        <div class="third-sec-content">
+          <p>As a passionate web developer, with expertise in python ,Django, frontend and figma design, I thrive on the
+            challenges of exploring complex system landscapes and uncovering meaningful patterns that drive innovation
+          </p>
         </div>
-      </section>
-    </footer>
-  </body>
+        <div class="third_header">
+          <a href="#">Contact me</a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- second section  -->
+    <section id="second-section">
+      <div class="second-about">
+        <article class="second-first-artice">
+          <h2>About Me</h2>
+          <p>Get to know me</p>
+        </article>
+      </div>
+      <div class="second-about-content">
+        <article class="second-second-artice">
+          <p>Hi, I’m Sudarshan Khatri, a full-stack developer with experience in building responsive, user-friendly interfaces and scalable backend systems. I specialize in HTML, CSS, JavaScript, and React on the frontend, along with Python, Django, and FastAPI on the backend. <br><br>
+
+        I enjoy creating clean, efficient web applications that focus on performance, usability, and maintainability. From designing intuitive user interfaces to developing secure APIs and backend logic, I work across the full development lifecycle. <br><br>
+
+        I’m passionate about learning new technologies, solving real-world problems, and delivering reliable solutions that create meaningful user experiences.</p>
+        </article>
+      </div>
+      <div class="second-content-cv">
+        <a href="resume.pdf" download>Download Resume</a>
+      </div>
+
+    </section>
+  </main>
+
+</body>
+
 </html>
