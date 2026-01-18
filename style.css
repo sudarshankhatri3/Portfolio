@@ -74,8 +74,8 @@ a{
     width: 1025px;
     height: 764px;
     background-image: url("Rectangle 3.png");
-    background-size: cover;
-    background-position: center;
+    background-size:  1025px 764px;
+    background-position: 50% 50%;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -345,4 +345,41 @@ a{
 
 .fourth_data h3{
     background-color: #484E53;
+}
+
+.fourth_project_sec{
+    margin-top: 20px;
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.fourth_cart{
+    border: 1px solid #4FC3F7;
+
+}
+.fourth_cart_title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 5px;
+
+}
+.fourth_cart_link{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    gap: 100px;
+    display: flex;
+
+}
+.fourth_cart_link a{
+    background-color: #4FC3F7;
+    height: 30px;
+    width: 30px;
+    align-self: center;
+    border: 1px solid #4FC3F7;
+    border-radius: 50%;
+
 }
