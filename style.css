@@ -354,7 +354,7 @@ a{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 .fourth_cart{
     border: 1px solid #4FC3F7;
@@ -372,6 +372,10 @@ a{
     padding: 5px;
     gap: 100px;
     display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
 
 }
 .fourth_cart_link a{
@@ -383,3 +387,5 @@ a{
     border-radius: 50%;
 
 }
+
+
