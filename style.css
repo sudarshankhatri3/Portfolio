@@ -63,8 +63,10 @@ a{
 /* first section css */
 #first_section{
     margin-top: 20px;
-    width: 100vh;
+    width: 100vw;
     height: 812px;
+    display: flex;
+    justify-content: center;
     
 }
 
