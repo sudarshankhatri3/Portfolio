@@ -59,6 +59,7 @@ a{
     position: relative;
 }
 .third_header a{
+    color: #FFFFFF;
     width: 88px;
     height: 18px;
     position: absolute;
@@ -167,10 +168,12 @@ a{
 .second-content-cv{
     width: 216px;
     height: 55px;
+    padding-left: 5px;
     border: 1px solid #4FC3F7;
     border-radius: 55px;
-    position:relative ;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .second-content-cv a{
@@ -178,10 +181,7 @@ a{
     height: 18px;
     font-size: 15px;
     color: #FFFFFF;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    
 
 }
 
@@ -257,6 +257,7 @@ a{
     background-color: #2B2B2B;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
+    border-radius: 5px;
 }
 .third_container_sec{
     margin-top: 10px;
@@ -274,6 +275,7 @@ a{
     border: 1px solid #FFFFFF;
     border-radius: 10px;
     display: flex;
+    gap: 10px;
     justify-content: center;
     align-items: center;
 }
@@ -286,11 +288,13 @@ a{
     background-color: #2B2B2B;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    padding-top: 10px;
-    padding-left: 10px;
+    /* padding-top: 10px;
+    padding-left: 10px; */
     width: 314px;
     height: 145px;
-    padding: 20px;
+    margin-bottom: 45px;
+    padding: 14px;
+    /* padding: 20px; */
 }
 .third_sec_data_sec:hover{
     transition: all  0.5  ease ;
@@ -509,8 +513,8 @@ footer{
 
 .email_section{
     margin-top: 15px;
-    width: 300px;
-    height: 63px;
+    width: 310px;
+    height: 50px;
     border: 1px solid #484E53;
     border-radius: 10px;
     gap: 20px;
@@ -522,7 +526,11 @@ footer{
 
 }
 .email_section a{
-    color:#C9C9C9
+    color:#C9C9C9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
 }
 
 
@@ -544,5 +552,4 @@ footer{
     color: #484E53;
     padding: 20px;
 }
-
 
